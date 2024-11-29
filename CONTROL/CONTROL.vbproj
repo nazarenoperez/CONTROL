@@ -73,9 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MENU.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="MENU.vb" />
     <Compile Include="MENU.Designer.vb">
       <DependentUpon>MENU.vb</DependentUpon>
       <SubType>Form</SubType>
@@ -98,7 +96,9 @@
     <Compile Include="compra.Designer.vb">
       <DependentUpon>compra.vb</DependentUpon>
     </Compile>
-    <Compile Include="compra.vb" />
+    <Compile Include="compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="productos.Designer.vb">
       <DependentUpon>productos.vb</DependentUpon>
     </Compile>
